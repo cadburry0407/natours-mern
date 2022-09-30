@@ -5,19 +5,16 @@ const CallToAction = (props) => {
       <section className="section-cta">
         <div className="cta">
           <div className="cta__img cta__img--logo">
-            <img
-              src={`${process.env.REACT_APP_BACKEND_URL_ENDPOINT}/img/logo-white.png`}
-              alt="Natours logo"
-            />
+            <img src={`/img/logo-white.png`} alt="Natours logo" />
           </div>
           <img
             className="cta__img cta__img--1"
-            src={`${process.env.REACT_APP_BACKEND_URL_ENDPOINT}/img/tours/${props.tour.images[1]}`}
+            src={`/img/tours/${props.tour.images[1]}`}
             alt="Tour "
           />
           <img
             className="cta__img cta__img--2"
-            src={`${process.env.REACT_APP_BACKEND_URL_ENDPOINT}/img/tours/${props.tour.images[2]}`}
+            src={`/img/tours/${props.tour.images[2]}`}
             alt="Tour"
           />
           <div className="cta__content">

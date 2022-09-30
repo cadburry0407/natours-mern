@@ -14,7 +14,7 @@ const Reviews = (props) => {
                 <div className="reviews__avatar">
                   <img
                     className="reviews__avatar-img"
-                    src={`${process.env.REACT_APP_BACKEND_URL_ENDPOINT}/img/users/${review.user.photo}`}
+                    src={`/img/users/${review.user.photo}`}
                     alt={review.user.name}
                   />
                   <h6 className="reviews__user">{review.user.name}</h6>

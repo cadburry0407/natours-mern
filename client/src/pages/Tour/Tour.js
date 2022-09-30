@@ -71,7 +71,7 @@ const Tour = () => {
           <div className="header__hero-overlay">&nbsp;</div>
           <img
             className="header__hero-img"
-            src={`${process.env.REACT_APP_BACKEND_URL_ENDPOINT}/img/tours/${tour.imageCover}`}
+            src={`/img/tours/${tour.imageCover}`}
             alt={tour.name}
           />
         </div>

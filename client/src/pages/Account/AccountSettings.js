@@ -97,7 +97,7 @@ const AccountSettings = () => {
           <div className="form__group form__photo-upload">
             <img
               className="form__user-photo"
-              src={`${process.env.REACT_APP_BACKEND_URL_ENDPOINT}/img/users/${user?.photo}`}
+              src={`/img/users/${user?.photo}`}
               alt={`${user?.name}`}
             />
             <input

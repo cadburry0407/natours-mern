@@ -55,7 +55,7 @@ const Header = () => {
             </Link>
             <Link to="/account/settings" className="nav__el">
               <img
-                src={`${process.env.REACT_APP_BACKEND_URL_ENDPOINT}/img/users/${user.photo}`}
+                src={`/img/users/${user.photo}`}
                 alt={`${user.name}`}
                 className="nav__user-img"
               />

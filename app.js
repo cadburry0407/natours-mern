@@ -30,7 +30,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 //   })
 // );
 
-const whitelist = ['http://localhost:3000', 'http://localhost:3001'];
+const whitelist = [
+  'http://localhost:3000',
+  'http://localhost:3001',
+  'https://silly-eel-tank-top.cyclic.app/',
+];
 
 app.use(cors({ origin: whitelist }));
 app.use(

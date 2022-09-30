@@ -11,7 +11,7 @@ const Pictures = (props) => {
             <div key={uuidv4()} className="picture-box">
               <img
                 className={`picture-box__img picture-box__img--${i + 1}`}
-                src={`${process.env.REACT_APP_BACKEND_URL_ENDPOINT}/img/tours/${image}`}
+                src={`/img/tours/${image}`}
                 alt="The Park Camper Tour 1"
               />
             </div>
